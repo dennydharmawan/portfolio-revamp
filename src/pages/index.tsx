@@ -17,6 +17,7 @@ import IconHighlightUnderline from '@/assets/highlight-underline.svg?react';
 import IconStarsDoodle from '@/assets/stars-doodle.svg?react';
 import IconUnderlineDoodle from '@/assets/underline-doodle.svg?react';
 import { Button } from '@/components/ui/button';
+import { SocialButton } from '@/components/ui/social-button';
 import jobDescriptions from '@/data/job-description';
 import { downloadFile } from '@/lib/utils';
 
@@ -203,23 +204,21 @@ function App() {
               Also find me on
               <div className="h-1 w-4 rounded-md bg-orange-400"></div>
               <div className="flex gap-[18px] text-accent-600">
-                <Link to="https://linkedin.com/in/ddharmawan" target="_blank">
-                  <div className="relative z-10 flex items-center justify-center transition-all after:absolute after:left-1/2 after:top-1/2 after:-z-10 after:h-full after:w-full after:rounded-full after:bg-cyan-800 after:transition-all after:-translate-x-1/2 after:-translate-y-1/2 after:scale-[0] hover:text-slate-50 hover:after:scale-[1.4]">
+                <SocialButton asChild>
+                  <Link to="https://linkedin.com/in/ddharmawan" target="_blank">
                     <IconBrandLinkedin strokeWidth={2.5} width={32} height={32} />
-                  </div>
-                </Link>
-
-                <Link to="https://github.com/dennydharmawan" target="_blank">
-                  <div className="relative z-10 flex items-center justify-center transition-all after:absolute after:left-1/2 after:top-1/2 after:-z-10 after:h-full after:w-full after:rounded-full after:bg-cyan-800 after:transition-all after:-translate-x-1/2 after:-translate-y-1/2 after:scale-[0] hover:text-slate-50 hover:after:scale-[1.4]">
+                  </Link>
+                </SocialButton>
+                <SocialButton asChild>
+                  <Link to="https://github.com/dennydharmawan" target="_blank">
                     <IconBrandGithub strokeWidth={2.5} width={32} height={32} />
-                  </div>
-                </Link>
-
-                <Link to="mailto:contact@dennydharmawan.com" target="_blank">
-                  <div className="relative z-10 flex items-center justify-center transition-all after:absolute after:left-1/2 after:top-1/2 after:-z-10 after:h-full after:w-full after:rounded-full after:bg-cyan-800 after:transition-all after:-translate-x-1/2 after:-translate-y-1/2 after:scale-[0] hover:text-slate-50 hover:after:scale-[1.4]">
+                  </Link>
+                </SocialButton>
+                <SocialButton asChild>
+                  <Link to="mailto:contact@dennydharmawan.com">
                     <IconMail strokeWidth={2.5} width={32} height={32} />
-                  </div>
-                </Link>
+                  </Link>
+                </SocialButton>
               </div>
             </div>
           </div>
