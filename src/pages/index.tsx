@@ -136,6 +136,14 @@ function App() {
                   </li>
                   <li>
                     <a
+                      href="https://training-ground.dennydharmawan.com"
+                      className="block border-b border-slate-100 py-2 pl-3 pr-4 text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-primary-700 lg:dark:hover:bg-transparent lg:dark:hover:text-white"
+                    >
+                      Training Ground
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="#"
                       className="block border-b border-slate-100 py-2 pl-3 pr-4 text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-400 dark:hover:bg-slate-700 dark:hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-primary-700 lg:dark:hover:bg-transparent lg:dark:hover:text-white"
                     >
