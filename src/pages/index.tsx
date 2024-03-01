@@ -169,6 +169,13 @@ function App() {
             {/* spinner */}
             <div className="overflow-hidden after:absolute after:-top-[12%] after:left-[1.2rem] after:aspect-square after:w-32 after:animate-[spin_10s_linear_infinite] after:rounded-lg after:bg-primary-700 after:opacity-[0.08]"></div>
 
+            <div className="items-top flex bg-blue-500 px-4 py-3 text-sm font-bold text-white" role="alert">
+              <p>
+                This website is a work in progress. Stay tuned for exciting updates as I continue to refine
+                and expand my portfolio.
+              </p>
+            </div>
+
             <h1 className="mb-10 text-4xl font-bold leading-snug">
               Beyond Development, Creating Solutions: Building&nbsp;
               <span className="relative text-accent-600">
